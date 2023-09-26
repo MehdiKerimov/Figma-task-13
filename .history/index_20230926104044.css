@@ -56,18 +56,17 @@
 .container .box-container {
 }
 .container .box-container .box-container-1 {
+  position: relative;
   display: flex;
 }
 .container .box-container .box-container-2 {
   display: flex;
   margin-right: 50px;
-  margin-top: 30px;
 }
 .container .box-container .box-container-1 .box-1 {
   margin-right: 50px;
 }
-.container .box-container .box {
-    position: relative
+.container .box-container .box-container-1 .box-1 div {
 }
 .container .box-container .box-container-1 .box-1  {
     width: 470px;
@@ -90,9 +89,6 @@
   height: 38px;
   border-radius: 19px;
   background: #fff;
-  position: absolute;
-  left: 48px;
-  bottom: 122px;
 }
 .container .box-container .box button a {
   text-decoration: none;
@@ -112,9 +108,6 @@
   font-style: normal;
   font-weight: 800;
   line-height: 48px;
-  position: absolute;
-  left: 48px;
-  bottom: 51px;
 }
 .container .box-container .box-container-2 .box-3 img {
   width: 670px;
